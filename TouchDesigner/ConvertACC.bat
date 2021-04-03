@@ -1,0 +1,1 @@
+ffmpeg\ffmpeg -i videos\out.mov -vcodec copy videos\out2.mp4

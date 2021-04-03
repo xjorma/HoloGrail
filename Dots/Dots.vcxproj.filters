@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Geometries">
+      <UniqueIdentifier>{28fc2a35-069e-4b9a-b5a5-77338e8ea014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{ce191e30-8f83-49ee-8d79-078a971b779b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\hspan">
+      <UniqueIdentifier>{13ca0901-33ee-41cf-bdb3-b1b02252d9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometries\Greetings">
+      <UniqueIdentifier>{be4b84ec-f661-4e5a-903b-8436ec284c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlexusData">
+      <UniqueIdentifier>{23b97a85-687b-46b2-9c64-d12d43a97bac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\dodecahedron.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="voxie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demopch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\BouncingDots.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\icosahedron.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\octahedron.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\cube.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Tetrahedron.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Soccerball.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\CollapsingTiles.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\hypersoccerball.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\HyperGeometry.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\Nuke.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\Dissolve.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\david.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\Water.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequencer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\hspan\HoloGrail.cpp">
+      <Filter>Effects\hspan</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\hspan\Grail.cpp">
+      <Filter>Effects\hspan</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\Lorentz.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\world.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\EndCredit.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\Greeting.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Atari.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\CNCD.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Commodore.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\DeadLiner.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Eko.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Fairlight.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Farbrausch.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Melon.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Nooon.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Orange.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Replicants.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Sanity.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Scoopex.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Skarla.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Xmen.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\EidosSherbooke.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\Wave.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Canada.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Quebec.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Matilde.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Revision.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Kalisto.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\VolkorX.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Voxon.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\Plexus.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\FTA.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="PlexusData\Dance.cpp">
+      <Filter>PlexusData</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\XShip.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\FutureCrew.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Hemoroids.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Overlanders.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Oxygene.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Cocoon.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Lemon.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Vectrex.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\Spaceballs.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Greetings\TheUnion.cpp">
+      <Filter>Geometries\Greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\Present.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="geometries\volkorxintro.cpp">
+      <Filter>Geometries</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\Geometries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demopch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Noise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Geometries4d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\MathUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\VoxUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Sequencer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\HSpan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\ColorSequencer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

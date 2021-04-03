@@ -1,0 +1,1 @@
+ffmpeg\ffmpeg -i videos\out.mp4 -vcodec copy videos\out2.wav
